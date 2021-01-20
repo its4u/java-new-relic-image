@@ -1,4 +1,4 @@
-FROM fabric8/s2i-java:latest
+FROM fabric8/s2i-java:latest-java11
 USER root
 WORKDIR /opt
 RUN mkdir newrelic
