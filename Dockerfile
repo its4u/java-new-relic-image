@@ -1,4 +1,4 @@
-FROM adoptopenjdk/openjdk11:latest
+FROM fabric8/s2i-java:latest
 USER root
 WORKDIR /opt
 RUN mkdir newrelic
